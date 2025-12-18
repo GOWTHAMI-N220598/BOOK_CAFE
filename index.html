@@ -79,6 +79,29 @@
             margin-right:15px;
         }
 
+        .audio-box{
+            position:fixed;
+            bottom:20px;
+            right:20px;
+            background: #fab0a2;
+            padding:10px;
+            border-radius:10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2)
+        }
+
+        .video-box{
+            max-width:300px;
+            margin:40px auto;
+            background:#5e2014;
+            padding:15px;
+            border-radius:15px;
+            box-shadow:#3e2723;
+        }
+
+        .video-box video{
+            width:100%;
+            border-radius:12px;
+        }
 
         </style>
     </head>
@@ -90,6 +113,12 @@
         <center>
         <img src="bookcafe3.jpg" class="main-image">
         </center>
+
+        <div class="video-box">
+            <video controls loop muted>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
 
         <div class="main-name">
          <p> <h3> Have you ever wondered what it would feel like if time stopped?</h3></p>
@@ -199,6 +228,13 @@ This is where bonds grow stronger, one cup at a time.
             <p>© 2025 Mocha & Manuscripts. All rights reserved.</p>
             </h2>
             </div>
+
+            <div class="audio-box">
+                <audio controls loop>
+                    <source src="music1.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        
         
     </body>
 </html>
