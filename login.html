@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login | Mocha & Manuscripts</title>
+
+    <style>
+        body{
+            background-image: url("bookcafe5.jpg");
+            background-position: center;
+            background-size: cover;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login-box{
+            background: rgba(255,255,255,0.92);
+            max-width: 450px;
+            margin: 80px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            text-align: center;
+            color: #3e2723;
+            margin-bottom: 5px;
+        }
+
+        p{
+            text-align: center;
+            color: #5d4037;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        label{
+            font-weight: bold;
+            color: #3e2723;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 18px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        textarea{
+            resize: none;
+        }
+
+        button{
+            width: 100%;
+            padding: 12px;
+            background-color: #6d4c41;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #5d4037;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+        <h1>☕Mocha & Manuscripts</h1>
+        <p>Enter your details to continue</p>
+
+        <form action="index.html" method="get">
+
+            <label>Username</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" required>
+
+            <label>Contact Number</label>
+            <input type="tel" placeholder="Enter your contact number" required>
+
+            <label>Address</label>
+            <textarea rows="3" placeholder="Enter your address" required></textarea>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
