@@ -104,6 +104,7 @@
             border-radius:12px;
         }
 
+
         
 
         </style>
@@ -291,7 +292,8 @@ This is where bonds grow stronger, one cup at a time.
 
     <h2 style="text-align:center; color:#3e2723;">Contact Us</h2>
 
-    <form action="#" method="post">
+    <form action="#" method="post"
+    onsubmit="submitmessage()">
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required 
                style="width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc;">
@@ -328,7 +330,26 @@ This is where bonds grow stronger, one cup at a time.
                 </audio>
             </div>
         
+        <script>
+            const welcomeuser = () => {
+                alert("WELCOME TO MOCHA AND MANUSCRIPTS");
+                window.onload = welcomeuser;
 
+                const togglemusic = () => {
+                    const audio =audio
+                    document.querySelector(".audio-box audio");
+                    if(audio.paused){
+                        audio.play();
+                    }
+                    else{
+                        audio.pause();
+                    }
+                }
+            };
+            const submitmessage =() => {
+                alert("THANK YOU FOR CONTACTING MOCHA AND MANUSCRIPTS");
+            };
+            </script>
 
 
             
