@@ -1,0 +1,107 @@
+
+#1 current date and time
+import datetime
+today=datetime.datetime.now()
+print("current date , time:",today)
+
+#2
+first=input("enter your first name:")
+last=input("enter your last name:")
+print(last,first)
+
+#3
+n=int(input("enter a number:"))
+n1=int(n)
+n2=int(n*n)
+n3=int(n*n*n)
+sum=n1+n2+n3
+print("the value of (n + n*n + n*n*n):",sum)
+
+#4
+n1=int(input("enter first number:"))
+n2=int(input("enter second number:"))
+n3=int(input("enter third number:"))
+total=n1+n2+n3
+
+if n1==n2==n3 :
+   print("the sum of three times of three numbers is(triple of sum):",(3*total))
+else:
+   print("sum of three numbers:",total)
+
+#5
+x=int(input("enter x value:"))
+y=int(input("enter y value:"))
+
+solution=(x+y)**2
+print("solution is:",solution)
+
+#6
+amount=float(input("enter principle value:"))
+rate=float(input("enter interest rate:"))
+time=float(input("enter time period"))
+simple_interest=(amount*rate*time)/100
+print("future value:",simple_interest)
+
+
+#7
+value=input("enter a value:")
+n1=int(value)
+n2=float(value)
+print(n1)
+print(n2)
+
+#8
+n=int(input("enter a number"))
+sum=0
+for i in range(1,n+1) :
+   sum=sum+i
+print(sum)
+
+#9
+num=(input("enter a value:"))
+total=0
+for i in num:
+   total=total+int(i)
+print(total)
+
+#10
+char=input("enter a character:")
+ascii_value=ord(char)
+print("ascii value of character is:",ascii_value)
+
+#11
+value=input("enter a value:")
+if value.isnumeric():
+   print("the value is numeric")
+else:
+   print("not numeric")
+
+#12
+print("a rectangle with five rows and 3 colmns is as follows:")
+for i in range(5):
+   print("***")
+
+#13
+for i in range(2000,3201):
+   if (i%7==0 )and (i%5!=0) :
+      print(i)
+
+
+#14
+import math
+c=50
+h=30
+
+data=input("enter d values separated by commas:")
+value=data.split(",")
+result=[]
+for d in value:
+   q=math.sqrt((2*c*int(d))/h)
+   result.append(str(round(q)))
+print(",".join(result))
+
+#15
+for i in range(5, 0, -1):
+    for j in range(i):
+        print("A", end=" ")
+    print()
