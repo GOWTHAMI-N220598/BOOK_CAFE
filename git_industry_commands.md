@@ -118,3 +118,14 @@ Shows a brief version of the commit history with each commit in a single line.
 git log --oneline
 ### Screenshot Proof:
 ![Git Log Oneline Output](git_log_oneline.png)
+
+
+## Command: git log --graph
+### Syntax:
+git log --graph
+### Purpose:
+Shows the commit history as a graph to visualize branching and merges.
+### Example:
+git log --graph
+### Screenshot Proof:
+![Git Log Graph Output](git_log_graph.png)
