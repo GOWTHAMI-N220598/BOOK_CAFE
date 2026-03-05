@@ -80,15 +80,31 @@ git clone --branch git-lab-practice https://github.com/GOWTHAMI-N220598/BOOK_CAF
 
 
 ## Command: git clone --depth
-
 ### Syntax:
 git clone --depth <number-of-commits> <repository-url>
-
 ### Purpose:
 Clones only the most recent commits instead of the full history, making cloning faster.
-
 ### Example:
 git clone --depth 1 https://github.com/GOWTHAMI-N220598/BOOK_CAFE.git
-
 ### Screenshot Proof:
 ![Git Clone Depth Output](git_clone_depth.png)
+
+## Command: git status
+### Syntax:
+git status
+### Purpose:
+Shows the current branch and the status of files (tracked/untracked, staged/unstaged).
+### Example:
+git status
+### Screenshot Proof:
+![Git Status Output](git_status.png)
+
+## Command: git log
+### Syntax:
+git log
+### Purpose:
+Shows the commit history of the current branch, including commit hash, author, date, and message.
+### Example:
+git log
+### Screenshot Proof:
+![Git Log Output](git_log.png)
