@@ -35,31 +35,22 @@ git config --global user.email
 
 
 ## Command: git config --unset
-
 ### Syntax:
 git config --global --unset user.name
-
 ### Purpose:
 Removes a specific Git configuration setting.
-
 ### Example:
 git config --global --unset user.name
-
 ### Screenshot Proof:
-
 ![Git Unset Output](global_unset.png)
 
 ## Command: git init
-
 ### Syntax:
 git init
-
 ### Purpose:
 Initializes a new Git repository in the current folder. Creates a .git folder to track changes.
-
 ### Example:
 git init
-
 ### Screenshot Proof:
 
 ![Git Init Output](git_init.png)
@@ -75,3 +66,14 @@ Creates a folder with all files and full commit history.
 git clone https://github.com/your-username/bookcafe.git
 ### Screenshot Proof:
 ![Git Clone Output](git_clone.png)
+
+
+## Command: git clone --branch
+### Syntax:
+git clone --branch <branch-name> <repository-url>
+### Purpose:
+Clones a specific branch from a remote repository instead of the default branch.
+### Example:
+git clone --branch git-lab-practice https://github.com/GOWTHAMI-N220598/BOOK_CAFE.git
+### Screenshot Proof:
+![Git Clone Branch Output](git_branch_clone.png)
