@@ -209,3 +209,27 @@ git shortlog
 ![Git Shortlog Output](git_shortlog.png)
 
 temporary line for git add command
+
+## Command: git add
+### Syntax:
+git add <file-name>
+### Purpose:
+Stages changes in the working directory for the next commit.
+### Example:
+git add git_industry_commands.md
+### Screenshot Proof:
+![Git Add Output](git_add.png)
+
+## Command: git add .
+
+### Syntax:
+git add .
+
+### Purpose:
+Adds all new and modified files in the current repository to the staging area so they can be committed.
+
+### Example:
+git add .
+
+### Screenshot Proof:
+![Git Add Dot Output](git_add_dot.png)
