@@ -108,3 +108,13 @@ Shows the commit history of the current branch, including commit hash, author, d
 git log
 ### Screenshot Proof:
 ![Git Log Output](git_log.png)
+
+## Command: git log --oneline
+### Syntax:
+git log --oneline
+### Purpose:
+Shows a brief version of the commit history with each commit in a single line.
+### Example:
+git log --oneline
+### Screenshot Proof:
+![Git Log Oneline Output](git_log_oneline.png)
