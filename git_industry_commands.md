@@ -77,3 +77,18 @@ Clones a specific branch from a remote repository instead of the default branch.
 git clone --branch git-lab-practice https://github.com/GOWTHAMI-N220598/BOOK_CAFE.git
 ### Screenshot Proof:
 ![Git Clone Branch Output](git_branch_clone.png)
+
+
+## Command: git clone --depth
+
+### Syntax:
+git clone --depth <number-of-commits> <repository-url>
+
+### Purpose:
+Clones only the most recent commits instead of the full history, making cloning faster.
+
+### Example:
+git clone --depth 1 https://github.com/GOWTHAMI-N220598/BOOK_CAFE.git
+
+### Screenshot Proof:
+![Git Clone Depth Output](git_clone_depth.png)
