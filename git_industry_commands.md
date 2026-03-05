@@ -233,3 +233,19 @@ git add .
 
 ### Screenshot Proof:
 ![Git Add Dot Output](git_add_dot.png)
+
+temp for git add -p
+
+## Command: git add -p
+
+### Syntax:
+git add -p
+
+### Purpose:
+Allows the user to interactively stage specific changes (patches) from modified files instead of staging all changes at once.
+
+### Example:
+git add -p
+
+### Screenshot Proof:
+![Git Add Patch Output](git_add_patch.png)
