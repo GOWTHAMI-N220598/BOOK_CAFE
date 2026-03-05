@@ -179,3 +179,17 @@ git blame git_industry_commands.md
 
 ### Screenshot Proof:
 ![Git Blame Output](git_blame.png)
+
+## Command: git reflog
+
+### Syntax:
+git reflog
+
+### Purpose:
+Shows a log of all your Git actions (commits, resets, checkouts) for the current branch.
+
+### Example:
+git reflog
+
+### Screenshot Proof:
+![Git Reflog Output](git_reflog.png)
