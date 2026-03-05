@@ -151,3 +151,17 @@ Shows the differences between the working directory and the staging area (unstag
 git diff
 ### Screenshot Proof:
 ![Git Diff Output](git_diff.png)
+
+this is a test line for git staged## Command: git diff --staged
+
+### Syntax:
+git diff --staged
+
+### Purpose:
+Shows the differences that have been staged for the next commit.
+
+### Example:
+git diff --staged
+
+### Screenshot Proof:
+![Git Diff Staged Output](git_diff_staged.png)
