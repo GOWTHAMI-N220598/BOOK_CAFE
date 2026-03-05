@@ -129,3 +129,13 @@ Shows the commit history as a graph to visualize branching and merges.
 git log --graph
 ### Screenshot Proof:
 ![Git Log Graph Output](git_log_graph.png)
+
+## Command: git show
+### Syntax:
+git show
+### Purpose:
+Displays detailed information about the most recent commit, including changes made.
+### Example:
+git show
+### Screenshot Proof:
+![Git Show Output](git_show.png)
