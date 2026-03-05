@@ -193,3 +193,17 @@ git reflog
 
 ### Screenshot Proof:
 ![Git Reflog Output](git_reflog.png)
+
+## Command: git shortlog
+
+### Syntax:
+git shortlog
+
+### Purpose:
+Shows a summary of commits grouped by author with the number of commits and messages.
+
+### Example:
+git shortlog
+
+### Screenshot Proof:
+![Git Shortlog Output](git_shortlog.png)
