@@ -165,3 +165,17 @@ git diff --staged
 
 ### Screenshot Proof:
 ![Git Diff Staged Output](git_diff_staged.png)
+
+## Command: git blame
+
+### Syntax:
+git blame <file-name>
+
+### Purpose:
+Shows the commit, author, and date for each line in a file to track who last modified it.
+
+### Example:
+git blame git_industry_commands.md
+
+### Screenshot Proof:
+![Git Blame Output](git_blame.png)
