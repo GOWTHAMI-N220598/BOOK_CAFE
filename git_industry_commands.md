@@ -139,3 +139,15 @@ Displays detailed information about the most recent commit, including changes ma
 git show
 ### Screenshot Proof:
 ![Git Show Output](git_show.png)
+
+this is a test line for git diff
+
+## Command: git diff
+### Syntax:
+git diff
+### Purpose:
+Shows the differences between the working directory and the staging area (unstaged changes).
+### Example:
+git diff
+### Screenshot Proof:
+![Git Diff Output](git_diff.png)
