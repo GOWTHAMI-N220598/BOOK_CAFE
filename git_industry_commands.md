@@ -249,3 +249,34 @@ git add -p
 
 ### Screenshot Proof:
 ![Git Add Patch Output](git_add_patch.png)
+
+testing restore staged
+
+
+## Command: git restore --staged
+
+### Syntax:
+git restore --staged <file-name>
+
+### Purpose:
+Removes a file from the staging area but keeps the changes in the working directory.
+
+### Example:
+git restore --staged git_industry_commands.md
+
+### Screenshot Proof:
+![Git Restore Staged Output](git_restore_staged.png)
+
+## Command: git rm
+
+### Syntax:
+git rm <file-name>
+
+### Purpose:
+Removes a file from the working directory and also removes it from Git tracking.
+
+### Example:
+git rm sample.txt
+
+### Screenshot Proof:
+![Git RM Output](git_rm.png)
